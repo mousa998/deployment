@@ -1,0 +1,26 @@
+/* !!!: to set how many rows to show in element before clamp */
+.letter-selector .active-letter {
+  background: #1b8354 !important;
+  color: white !important;
+}
+
+.card-letter {
+  width: 46px;
+  height: 36px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (width >= 62em) {
+  .letter-board {
+    max-width: 450px;
+  }
+}

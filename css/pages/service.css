@@ -1,0 +1,21 @@
+/* !!!: to set how many rows to show in element before clamp */
+@media (width >= 62em) {
+  .service-sidebar {
+    -webkit-transform: translateY(-41%);
+    transform: translateY(-41%);
+  }
+}
+
+.services-owl .owl-dots {
+  margin-top: 25px !important; /* adjust as needed */
+}
+.services-owl .owl-dot.active span {
+  background-color: #1b8354 !important; /* Bootstrap primary color or any color you want */
+}
+.services-owl .owl-dot span {
+  background-color: #e5e7eb !important; /* default dot color */
+  width: 12px; /* size of the dot */
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+}

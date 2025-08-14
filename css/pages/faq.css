@@ -1,0 +1,15 @@
+.faq-tabs {
+  border-bottom: 4px solid #d2d6db !important;
+}
+.faq-tabs .nav-link.active::after {
+  position: absolute !important;
+  content: "";
+  left: 50% !important;
+  bottom: -2px !important;
+  width: 100% !important;
+  height: 3.4px !important;
+  border-radius: 0 !important;
+  background-color: #1b8354 !important;
+  -webkit-transform: translateX(-50%) !important;
+  transform: translateX(-50%) !important;
+}
